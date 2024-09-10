@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>The Astra</title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+
+
+    <style>
+        /* body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        } */
+
+
+        .contact-info ul {
+            /* position: absolute; */
+            top: 50%;
+            left: 50%;
+            /* transform: translate(-50%, -50%); */
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .contact-info ul li {
+            list-style: none;
+        }
+
+        .contact-info ul li a {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            display: block;
+            text-align: center;
+            margin: 0 10px;
+            border-radius: 50%;
+            padding: 6px;
+            box-sizing: border-box;
+            text-decoration: none;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(0deg, #ddd, #fff);
+            transition: .5s;
+        }
+
+        .contact-info ul li a:hover {
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+        }
+
+        .contact-info ul li a .fab {
+            widht: 100%;
+            height: 100%;
+            display: block;
+            background: linear-gradient(0deg, #fff, #ddd);
+            border-radius: 50%;
+            line-height: calc(60px - 12px);
+            font-size: 24px;
+            color: #262626;
+            transition: .5s;
+        }
+
+        .contact-info ul li:nth-child(1) a:hover .fab {
+            color: #3b5998;
+        }
+
+        .contact-info ul li:nth-child(2) a:hover .fab {
+            color: #00aced;
+        }
+
+        .contact-info ul li:nth-child(3) a:hover .fab {
+            color: #dd4b39;
+        }
+
+        .contact-info ul li:nth-child(4) a:hover .fab {
+            color: #007bb6;
+        }
+
+        .contact-info ul li:nth-child(5) a:hover .fab {
+            color: #e4405f;
+        }
+
+
+        h1 {
+            color: #001f3f;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-info,
+        .contact-form {
+            width: 48%;
+            display: inline-block;
+            vertical-align: top;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .contact-info {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .contact-info h3,
+        .contact-form h3 {
+            color: #001f3f;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-form {
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background: #001f3f;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .submit-btn:hover {
+            background: #003366;
+        }
+
+        @media (max-width: 768px) {
+
+            .contact-info,
+            .contact-form {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+    <!-- <div class="hero_area"> -->
+    <!-- header section strats -->
+    <header class="header_section">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/headlogo.png" alt="" />
+                    <span>
+                        The Astra
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"> About</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="blog.html"> Blog</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html"> Internship </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html"> Contact Us</a>
+                        </li>
+                    </ul>
+                    <!-- <div class="user_option">
+              <a href="/Engineer-Club/spering-html/category.html">
+                <span>
+                  Apply
+                </span>
+              </a>
+               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form> 
+            </div> -->
+                </div>
+                <div>
+                    <div class="custom_menu-btn ">
+                        <button>
+
+                            <span class=" s-1">
+
+                            </span>
+                            <span class="s-2">
+
+                            </span>
+                            <span class="s-3">
+
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <!-- end header section -->
+
+
+    <!-- <div class="navitagion">
+        <ul class="list-h-styled mb20">
+            <li><a href="https://theastra.tech">Home</a></li>
+            <li class="active">About Us</li>
+        </ul>
+        </div> -->
+
+
+    <section class="experience_section layout_padding-top layout_padding2-bottom first-section">
+        <div class="container ">
+
+
+
+            <div class="detail-box">
+                <div class="heading_container">
+                    <div class="container">
+                        <h1>Contact Us</h1>
+                        <div class="contact-info">
+                            <h3>Let's get in touch!</h3>
+                            <p>Your information is safe with us. We guarantee 100% data security. We don’t use emails
+                                for spamming.</p>
+                            <p><strong>Support Email Id: </strong></P><ul>support@theastra.tech</ul>
+                            <p><strong>Connect with Social Media</strong></p>
+                            <div class="social-media-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- <p><strong>Address:</strong> 123 Astra Street, Tech City, Country</p> -->
+                            <p>If you have any questions or need assistance, feel free to reach out to us through the
+                                form below!</p>
+                        </div>
+                        <div class="contact-form">
+                            <h3>Fill the Form</h3>
+                            <form action="mailto:support@theastra.tech" method="post" enctype="text/plain">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">Select Service</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">--Select a Service--</option>
+                                        <option value="Custom Software Development">Custom Software Development</option>
+                                        <option value="Web Development">Web Development</option>
+                                        <option value="Mobile App Development">Mobile App Development</option>
+                                        <option value="Cloud Computing">Cloud Computing</option>
+                                        <option value="AI and Machine Learning">AI and Machine Learning</option>
+                                        <option value="Data Analytics">Data Analytics</option>
+                                        <option value="IT Consulting">IT Consulting</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="description">Work Description</label>
+                                    <textarea id="description" name="description"  rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="submit-btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!--  Footer Start  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+
+                    <img src="images/logo.png" alt="" class="logoimg">
+                    <h3>The Astra</h3>
+
+                    <!-- <p> Build with Us</p> -->
+                </div>
+                <div class="footer-col">
+                    <h4>Quick link</h4>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./category.html">Internship</a></li>
+                        <li><a href="./about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Privacy</h4>
+                    <ul>
+                        <li><a href="./privacy.html">Privacy Policy</a></li>
+                        <li><a href="./terms.html">Terms and Conditions</a></li>
+                        <!-- <li><a href="#">Refund Policy</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get in touch</h4>
+                    <div class="social-links">
+                        <a href="https://telegram.me/TheAstraTech"><img src="images/telegram.png" alt=""></a>
+            <a href="#"><img src="images/x.png" alt=""></a>
+            <a href="#"><img src="images/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/theastratech/"><img src="images/linkedin.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section ">
+        <div class="container">
+            <p>
+                &copy; <span id="displayDate"></span> All Rights Reserved By
+                <a href="./index.html">The Astra</a>
+            </p>
+        </div>
+    </footer>
+    <!-- end  footer section -->
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/f&q.js"></script>
+
+
+</body>
+</body>
+
+</html>
